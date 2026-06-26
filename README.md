@@ -21,7 +21,7 @@ The dataset consists of historical taxi requests recorded every 10 minutes. The 
 - The exploratory analysis identified a recurring weekly demand pattern, leading to the inclusion of a 168 hour lag feature that improved model performance.
 - Linear Regression achieved the best generalization performance with a validation RMSE of 31.10 and a test RMSE of 34.94, outperforming all tree based models.
 - The final model reduced the prediction error by between 8.92 and 12.47 taxi orders per hour compared with Random Forest, LightGBM, and CatBoost.
-- The final RMSE of 34.94 was 27.2% below the required threshold of 48 while requiring only 0.013 s for training and 0.001 s for prediction.
+- The final RMSE of 34.94 was 27.2% below the required threshold of 48.
 
 ### Tools
 
